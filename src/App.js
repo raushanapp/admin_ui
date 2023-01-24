@@ -1,10 +1,10 @@
-
-
+import {Box} from "@chakra-ui/react"
+import { AllRoutes } from "./Pages/AllRoutes";
 function App() {
   return (
-    <div >
-      <h1>Admin Ui</h1>
-    </div>
+    <Box>
+      <AllRoutes/>
+    </Box>
   );
 }
 
